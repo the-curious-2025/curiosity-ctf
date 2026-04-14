@@ -62,7 +62,7 @@ def _load_secret_config():
         _die(
             "missing secret config: "
             f"{path}\n"
-            "create it from challenge_secret.example.json and keep it private"
+            "create it manually and keep it private"
         )
 
     with open(path, "r", encoding="utf-8") as f:

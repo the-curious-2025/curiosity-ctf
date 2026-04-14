@@ -22,7 +22,19 @@ Create your local secret config (do not commit it):
 
 ```bash
 mkdir -p .secrets
-cp challenge_secret.example.json .secrets/challenge_secret.json
+cat > .secrets/challenge_secret.json << 'JSON'
+{
+	"flag": "FLAG{your_new_secret_flag}",
+	"parts": [
+		"part_one",
+		"part_two",
+		"part_three",
+		"part_four",
+		"part_five",
+		"part_six"
+	]
+}
+JSON
 ```
 
 Edit `.secrets/challenge_secret.json` and set:
