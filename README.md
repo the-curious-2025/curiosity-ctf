@@ -1,4 +1,4 @@
-# curiosity-ctf
+# curiosity-ctf (beta)
 
 A hands-on CTF challenge with multiple layers and one final flag.
 
